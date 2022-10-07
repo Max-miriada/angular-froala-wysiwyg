@@ -1,16 +1,46 @@
 {
-  "name": "ssr-angular-froala-wysiwyg",
-  "version": "3.2.8",
-  "dependencies": {
-    "ssr-froala-editor": "3.0.6",
-    "tslib": "^2.0.0"
-  },
-  "main": "bundles/ssr-angular-froala-wysiwyg.umd.js",
-  "module": "fesm2015/ssr-angular-froala-wysiwyg.js",
-  "es2015": "fesm2015/ssr-angular-froala-wysiwyg.js",
-  "esm2015": "esm2015/ssr-angular-froala-wysiwyg.js",
-  "fesm2015": "fesm2015/ssr-angular-froala-wysiwyg.js",
-  "typings": "ssr-angular-froala-wysiwyg.d.ts",
-  "metadata": "ssr-angular-froala-wysiwyg.metadata.json",
-  "sideEffects": false
+	"main": "bundles/ssr-angular-froala-wysiwyg.umd.js",
+	"version": "3.2.9",
+	"description": "Angular 4, 5, 6, 7, 8 and 9 bindings for Froala WYSIWYG HTML rich text editor",
+	"module": "index.js",
+	"typings": "index.d.ts",
+	"keywords": [
+		"angular2",
+		"angular4",
+		"angular5",
+		"angular6",
+		"angular7",
+		"angular8",
+		"angular9",
+		"ng2",
+		"ng4",
+		"ng5",
+		"ng6",
+		"ng7",
+		"ng8",
+		"ng9",
+		"froala",
+		"html",
+		"text",
+		"editor",
+		"wysiwyg",
+		"rich editor",
+		"rich text editor",
+		"rte",
+		"javascript"
+	],
+	"author": {
+		"name": "Froala Labs",
+		"url": "https://www.froala.com/"
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/froala/angular-froala-wysiwyg.git"
+	},
+	"name": "ssr-angular-froala-wysiwyg",
+	"dependencies": {
+		"ssr-froala-editor": "3.0.6"
+	},
+	"_id": "ssr-angular-froala-wysiwyg@3.2.0"
 }

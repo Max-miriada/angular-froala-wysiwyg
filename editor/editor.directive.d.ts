@@ -17,9 +17,8 @@ export declare class FroalaEditorDirective implements ControlValueAccessor {
     writeValue(content: any): void;
     registerOnChange(fn: (_: any) => void): void;
     registerOnTouched(fn: () => void): void;
-    set froalaEditor(opts: any);
-    private clone;
-    set froalaModel(content: any);
+    froalaEditor: any;
+    froalaModel: any;
     private updateEditor;
     froalaModelChange: EventEmitter<any>;
     froalaInit: EventEmitter<Object>;
@@ -34,5 +33,4 @@ export declare class FroalaEditorDirective implements ControlValueAccessor {
     private generateManualController;
     ngAfterViewInit(): void;
     ngOnDestroy(): void;
-    setDisabledState(isDisabled: boolean): void;
 }
