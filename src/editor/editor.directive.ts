@@ -1,5 +1,5 @@
 import { ControlValueAccessor, NG_VALUE_ACCESSOR } from "@angular/forms";
-import { Directive, ElementRef, EventEmitter, Input, NgZone, Optional, Output, Renderer, forwardRef } from '@angular/core';
+import { Directive, ElementRef, EventEmitter, Input, NgZone, Optional, Output, Renderer2, forwardRef } from '@angular/core';
 
 import FroalaEditor from 'ssr-froala-editor';
 
