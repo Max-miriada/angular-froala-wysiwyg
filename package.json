@@ -1,6 +1,6 @@
 {
   "name": "ssr-angular-froala-wysiwyg",
-  "version": "3.2.1",
+  "version": "3.2.2",
   "description": "Angular 4, 5, 6, 7, 8 and 9 bindings for Froala WYSIWYG HTML rich text editor",
   "main": "bundles/angular-froala-wysiwyg.umd.js",
   "typings": "index.d.ts",
@@ -50,7 +50,7 @@
   },
   "dependencies": {
     "font-awesome": "^4.7.0",
-    "ssr-froala-editor": "3.0.5",
+    "ssr-froala-editor": "3.0.6",
     "tslib": "^1.9.0"
   },
   "peerDependencies": {},
