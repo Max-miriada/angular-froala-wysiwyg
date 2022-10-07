@@ -60,7 +60,7 @@
         }
       }
     },
-    "angular-froala-wysiwyg-e2e": {
+    "ssr-angular-froala-wysiwyg-e2e": {
       "root": "demo/e2e",
       "sourceRoot": "demo/e2e",
       "projectType": "application"
