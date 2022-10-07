@@ -1,6 +1,6 @@
 {
   "name": "ssr-angular-froala-wysiwyg",
-  "version": "3.2.4",
+  "version": "3.2.6",
   "dependencies": {
     "ssr-froala-editor": "3.0.6"
   }
